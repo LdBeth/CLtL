@@ -1,0 +1,273 @@
+%% Document style CLTL10: report 10pt for CLM.
+%% Produced from /usr/local/lib/tex/macros/rep10.sty by Guy Steele.
+% 3/18/85 10:28:39  Created.
+% 3/18/85 11:19:28  Twiddled \chapter sizes and spacings.
+% 3/18/85 11:27:16  Twiddle margin parameters to widen text by 36pt.
+% 3/18/85 11:28:28  Reduce \parindent from 15pt to 10pt.
+% 3/21/85 11:29:23  Make the \chapter typeout use \thechapter.
+% 1/31/86 16:02:41  Make footnotesize and smaller, and also chapter
+%		    headings, let \sc=\relax.
+
+%%% Repair Letter Gothic \fontdimen parameters.
+%%% (Letter Gothic at 10pt is 6pt wide.)
+
+%%% % \tentt is Letter Gothic at 9pt
+%%% \global\fontdimen1\tentt=0pt          % slant per pt
+%%% \global\fontdimen2\tentt=5.4pt        % interword space
+%%% \global\fontdimen3\tentt=0pt          % interword stretch
+%%% \global\fontdimen4\tentt=0pt          % interword shrink
+%%% \global\fontdimen5\tentt=4.761pt      % x-height
+%%% \global\fontdimen6\tentt=5.4pt        % quad width
+%%% \global\fontdimen7\tentt=0pt          % extra space
+
+%%% % \nintt is Letter Gothic at 8pt
+%%% \global\fontdimen1\nintt=0pt          % slant per pt
+%%% \global\fontdimen2\nintt=4.8pt        % interword space
+%%% \global\fontdimen3\nintt=0pt          % interword stretch
+%%% \global\fontdimen4\nintt=0pt          % interword shrink
+%%% \global\fontdimen5\nintt=4.232pt      % x-height
+%%% \global\fontdimen6\nintt=4.8pt        % quad width
+%%% \global\fontdimen7\nintt=0pt          % extra space
+
+% \tentt is Letter Gothic at 8.5pt
+\global\fontdimen1\tentt=0pt          % slant per pt
+%\global\fontdimen2\tentt=5.1pt        % interword space
+\global\fontdimen3\tentt=0pt          % interword stretch
+\global\fontdimen4\tentt=0pt          % interword shrink
+\global\fontdimen5\tentt=4.497pt      % x-height
+\global\fontdimen6\tentt=5.1pt        % quad width
+\global\fontdimen7\tentt=0pt          % extra space
+
+% \nintt is Letter Gothic at 7.5pt
+\global\fontdimen1\nintt=0pt          % slant per pt
+%\global\fontdimen2\nintt=4.5pt        % interword space
+\global\fontdimen3\nintt=0pt          % interword stretch
+\global\fontdimen4\nintt=0pt          % interword shrink
+\global\fontdimen5\nintt=3.968pt      % x-height
+\global\fontdimen6\nintt=4.5pt        % quad width
+\global\fontdimen7\nintt=0pt          % extra space
+
+%%% Adjust interword space for 12-pt bold (reduce to 80% of nominal)
+\@tempdima=\fontdimen2\twlbf
+\multiply\@tempdima by 4
+\divide\@tempdima by 5
+\global\fontdimen2\twlbf=\@tempdima
+
+
+\newskip\ruletonoteskip \ruletonoteskip=6pt plus 3pt minus 1pt
+\newskip\ruletotextskip \ruletotextskip=10pt plus 12pt minus 2pt
+\newdimen\thinrule   \thinrule=0.4pt
+
+
+\lineskip 1pt \normallineskip 1pt
+\def\baselinestretch{1}
+\def\@normalsize{\@setsize\normalsize{12.5pt}\xpt\relax%\@xpt
+ \abovedisplayskip 10pt plus2pt minus5pt
+ \belowdisplayskip \abovedisplayskip
+ \abovedisplayshortskip \z@ plus3pt
+ \belowdisplayshortskip 6pt plus3pt minus3pt
+ \let\biggersize=\large}
+
+\def\small{\@setsize\small{11pt}\ixpt\relax%\@ixpt
+ \abovedisplayskip 8.5pt plus 3pt minus 4pt
+ \belowdisplayskip \abovedisplayskip
+ \abovedisplayshortskip \z@ plus2pt
+ \belowdisplayshortskip 4pt plus2pt minus 2pt
+ \let\biggersize=\normalsize}
+
+\def\footnotesize{\@setsize\footnotesize{9.5pt}\viiipt\relax%\@viiipt
+ \abovedisplayskip 6pt plus 2pt minus 4pt
+ \belowdisplayskip \abovedisplayskip
+ \abovedisplayshortskip \z@ plus 1pt
+ \belowdisplayshortskip 3pt plus 1pt minus 2pt
+ \let\sc=\relax
+ \let\biggersize=\small
+ \def\@listi{\topsep 3pt plus 1pt minus 1pt\parsep 2pt plus 1pt minus 1pt
+ \itemsep \parsep}}
+
+\def\scriptsize{\@setsize\scriptsize{8pt}\viipt\relax%\@viipt
+  \let\sc=\relax}
+\def\tiny{\@setsize\tiny{6pt}\vpt\relax%\@vpt
+  \let\sc=\relax}
+\def\large{\@setsize\large{14pt}\xiipt\relax%\@xiipt
+}
+\def\Large{\@setsize\Large{18pt}\xivpt\relax%\@xivpt
+}
+\def\LARGE{\@setsize\LARGE{22pt}\xviipt\relax%\@xviipt
+}
+\def\huge{\@setsize\huge{25pt}\xxpt\relax%\@xxpt
+}
+\def\Huge{\@setsize\Huge{30pt}\xxvpt\relax%\@xxvpt
+}
+\normalsize 
+
+%\if@twoside \oddsidemargin 26pt \evensidemargin 64pt \marginparwidth 107pt
+%\else       \oddsidemargin 45pt \evensidemargin 45pt \marginparwidth 72pt 
+%\fi
+%\marginparsep 11pt 
+\topmargin 27pt
+\headheight 13pt
+\headsep 21pt
+\footheight 12pt
+\footskip 24pt 
+\textheight 500pt    % 40 lines of 10/12.5
+\textwidth 28pc
+\columnsep 10pt
+\columnseprule 0pt 
+%\footnotesep 12pt \skip\footins 6pt plus 2pt minus 2pt 
+\floatsep 12pt plus 2pt minus 2pt
+\textfloatsep \ruletotextskip
+\intextsep \ruletotextskip
+\@maxsep 20pt
+\dblfloatsep 12pt plus 2pt minus 2pt
+\dbltextfloatsep 20pt plus 2pt minus 4pt
+\@dblmaxsep 20pt 
+\@fptop 0pt plus 1fil
+\@fpsep 8pt plus 2fil
+\@fpbot 0pt plus 1fil 
+\@dblfptop 0pt plus 1fil
+\@dblfpsep 8pt plus 2fil
+\@dblfpbot 0pt plus 1fil
+\marginparpush 5pt 
+
+\baselineskip=12.5pt
+\parskip 0pt plus 0.25pt
+\parindent 1em
+\topsep 8pt plus 2pt minus 1pt
+\partopsep 0pt
+\itemsep 3pt
+\@lowpenalty 51
+\@medpenalty 151
+\@highpenalty 301 
+\@beginparpenalty -\@lowpenalty
+\@endparpenalty -\@lowpenalty
+\@itempenalty -\@lowpenalty 
+
+\newcounter {chapter}
+\newcounter {section}[chapter]
+\newcounter {subsection}[section]
+\newcounter {subsubsection}[subsection]
+%\newcounter {paragraph}[subsubsection]
+%\newcounter {subparagraph}[paragraph]
+\def\thechapter {\arabic{chapter}}
+\def\thesection {\thechapter.\arabic{section}}
+\def\thesubsection {\thesection.\arabic{subsection}}
+\def\thesubsubsection {\thesubsection.\arabic{subsubsection}}
+%? \def\theparagraph {\thesubsubsection.\arabic{paragraph}}
+%? \def\thesubparagraph {\theparagraph.\arabic{subparagraph}}
+\def\@chapapp{}
+
+\def\@makechapterhead#1{\null
+  \vskip-44.5pt              %was -34pt
+  \headrule
+  \vskip 7pt  \nointerlineskip
+  \setbox0=\hbox{\ifnum \c@secnumdepth >\m@ne
+                    \LARGE\sf \@chapapp{}\thechapter \fi}
+  \dp0=0pt  \vbox to 0pt{\vss\box0}
+  \vskip 5pc
+  \hrule height 2pt depth 0pt width 12pc
+  \vskip 20pt
+  \setbox0=\hbox{\huge \sf \let\sc=\relax #1}
+  \dp0=0pt  \vbox to 0pt{\vss\box0}\vskip-\prevdepth
+  \@dochapauth}
+
+\def\@makeschapterhead#1{\null
+  \vskip-44.5pt              %was -34pt
+  \headrule
+  \vskip 7pt  \nointerlineskip
+  \vskip 5pc
+  \hrule height 2pt depth 0pt width 12pc
+  \vskip 20pt
+  \setbox0=\hbox{\LARGE \sf \let\sc=\relax #1}
+  \ht0=0pt  \vbox to 0pt{\vss\box0}\vskip-\prevdepth
+  \@dochapauth}
+               
+\newif\if@chapauth
+
+\def\chapterauthor#1{\def\@gtempa{}\def\@gtempb{#1}\ifx\@gtempa\@gtempb
+    \@chapauthfalse\else
+    \global\def\@chapauth{\uppercase{#1}}\@chapauthtrue\fi}
+
+\def\@dochapauth{\if@chapauth
+     \vskip 2pc
+     \setbox0=\vtop{\normalsize \sf \let\sc=\relax \noindent BY \@chapauth}
+     \dp0=0pt  \vbox to 0pt{\vss\box0}
+     \vskip 4.5pc plus 0.5pc
+     \chapterauthor{}
+  \else
+     \vskip 6.5pc plus 0.5pc
+  \fi
+  \vskip-12.5pt\hbox{}\nointerlineskip}
+\chapterauthor{}
+
+\def\chapter{\clearpage \thispagestyle{plain} \global\@topnum\z@
+  \@afterindentfalse \secdef\@chapter\@schapter} 
+\def\@chapter[#1]#2{\ifnum \c@secnumdepth >\m@ne
+    \refstepcounter{chapter}
+    \typeout{\@chapapp\space\thechapter.}
+    \addcontentsline{toc}{chapter}{\protect\numberline{\@chapapp\thechapter.}#1}\else
+    \addcontentsline{toc}{chapter}{#1}\fi
+  \chaptermark{#1}
+  \addtocontents{lof}{\protect\addvspace{10pt}}
+  \addtocontents{lot}{\protect\addvspace{10pt}} \if@twocolumn
+  \@topnewpage[\@makechapterhead{#2}] 
+ \else \@makechapterhead{#2}
+  \@afterheading \fi}
+\def\@schapter#1{\if@twocolumn
+  \@topnewpage[\@makeschapterhead{#1}] \else \@makeschapterhead{#1} 
+  \@afterheading\fi}
+
+\def\section{\@startsection {section}{1}{\z@}{-22pt plus -10 pt
+minus -7pt}{8pt plus 3pt minus 2pt}{\large\bf\let\sc=\relax}}
+
+\def\subsection{\@startsection{subsection}{2}{\z@}{-22pt plus -10 pt
+minus -7pt}{8pt plus 3pt minus 2pt}{\large\bf\let\sc=\relax}}
+
+\def\subsubsection{\@startsection{subsubsection}{3}{\z@}{-22pt plus -10 pt
+minus -7pt}{8pt plus 3pt minus 2pt}{\large\bf\let\sc=\relax}}
+
+%? \def\paragraph{\@startsection
+%? {paragraph}{4}{\z@}{3.25ex plus 1ex minus .2ex}{-1em}{\normalsize\it\let\sc=\relax}}
+%? \def\subparagraph{\@startsection
+%? {subparagraph}{4}{\parindent}{3.25ex plus 1ex minus 
+%? .2ex}{-1em}{\normalsize\it\let\sc=\relax}}
+\def\chaptermark#1{}
+\setcounter{secnumdepth}{3}
+\def\appendix{\par
+\setcounter{chapter}{0}
+\setcounter{section}{0}
+\def\@chapapp{Appendix }
+\def\thechapter{\Alph{chapter}}}
+
+\leftmargini 1em
+\leftmarginii 1em
+\leftmarginiii 1em
+%\leftmarginiv 1em
+%\leftmarginv 1em
+%\leftmarginvi 1em
+\leftmargin\leftmargini
+\labelwidth=0pt
+\itemsep=3pt
+
+\def\@listi{\leftmargin\leftmargini \labelsep\leftmargin
+   \parsep 3pt\relax
+   \topsep 4pt plus 3pt\relax
+   \itemsep\topsep}
+\def\@listii{\leftmargin\leftmarginii \labelsep\leftmargin
+   \labelwidth\leftmarginii\advance\labelwidth-\labelsep
+   \parsep 3pt\relax
+   \topsep 4pt plus 3pt\relax
+   \itemsep\topsep}
+\def\@listiii{\leftmargin\leftmarginiii \labelsep\leftmargin
+   \labelwidth\leftmarginiii\advance\labelwidth-\labelsep
+   \parsep 3pt\relax
+   \topsep 4pt plus 3pt\relax
+   \itemsep\topsep}
+%\def\@listiv{\leftmargin\leftmarginiv \labelsep\leftmargin
+%   \labelwidth\leftmarginiv\advance\labelwidth-\labelsep}
+%\def\@listv{\leftmargin\leftmarginv \labelsep\leftmargin
+%   \labelwidth\leftmarginv\advance\labelwidth-\labelsep}
+%\def\@listvi{\leftmargin\leftmarginvi \labelsep\leftmargin
+%   \labelwidth\leftmarginvi\advance\labelwidth-\labelsep}
+
+%[End]
