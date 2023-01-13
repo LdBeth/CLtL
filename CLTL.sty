@@ -81,11 +81,11 @@
   % use acute of next larger size for quote
   \def\Xquote{{\tt\@tempdima=-1.36ex\setbox0\hbox to 1em{\hss\biggersize\tt
          \advance\@tempdima by 1.36ex
-         \lower\@tempdima\hbox{\ifchiron\char"27\else\char"27\fi}\hss}\dp0=0pt\box0}}
+         \lower\@tempdima\hbox{\ifchiron\char"27\else\char"01\fi}\hss}\dp0=0pt\box0}}
   % use grave of next larger size for backquote
   \def\Xbq{{\tt\@tempdima=-1.36ex\setbox0\hbox to 1em{\hss\biggersize\tt
          \advance\@tempdima by 1.36ex
-         \lower\@tempdima\hbox{\ifchiron\char"60\else\char"60\fi}\hss}\dp0=0pt\box0}}
+         \lower\@tempdima\hbox{\ifchiron\char"60\else\char"00\fi}\hss}\dp0=0pt\box0}}
   % use tilde of next larger size for asciitilde
   \def\Xtilde{{\tt\@tempdima=-1.36ex\setbox0\hbox to 1em{\hss\biggersize\tt
          \advance\@tempdima by 1.36ex
@@ -93,7 +93,7 @@
   % use circumflex of next larger size for asciicircumflex
   \def\Xcircumflex{{\tt\@tempdima=-1.36ex\setbox0\hbox to 1em{\hss\biggersize\tt
          \advance\@tempdima by 1.36ex
-         \lower\@tempdima\hbox{\ifchiron\char"5E\else\char"5E\fi}\hss}\dp0=0pt\box0}}
+         \lower\@tempdima\hbox{\ifchiron\char"5E\else\char"02\fi}\hss}\dp0=0pt\box0}}
   \def\Xsharp{\hbox{\tt\hbox to 0pt{\char35\hss}\hbox to 0pt
                        {\raise0.189ex\hbox{\char45}\hss}\lower0.189ex\hbox{\char45}}}
   % Make equals sign from two em dashes
@@ -134,10 +134,10 @@
   \def\Xarrowright{{\tt\char"A2}}
   \def\Xarrowdown{{\tt\char"A4}}
 \else
-   %\def\Xarrowright{\begin{math} \Rightarrow \end{math}}
-%\def\Xarrowdown{\begin{math} \Downarrow \end{math}}
-\def\Xarrowright{{\tt\char"A2}}
-  \def\Xarrowdown{{\tt\char"A4}}
+\def\Xarrowright{$\Rightarrow$}
+\def\Xarrowdown{$\Downarrow$}
+%\def\Xarrowright{{\tt\char"A2}}
+%\def\Xarrowdown{{\tt\char"A4}}
 \fi
 \def\Xatsign{{\tt\char"40}}
 \def\Xbackslash{{\tt\char"5C}}
