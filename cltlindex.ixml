@@ -1,7 +1,7 @@
 index: (entry, NL)+, NL* .
 entry: -"\indexentry{{", id, -"}{", line, -"}}{", page, -"}" .
 
-id: ~[" "]+, " " .
+id: (~[" "]+; "(", ~[")"]+, ")"), " " .
 line: -"\cf ", lead, -"\ \rm \lowercase {", type, -"}" .
 lead: ~["\"]+ .
 type: ~["}"]+ .

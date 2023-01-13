@@ -1,31 +1,22 @@
 <xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <xsl:output method="text"  encoding="UTF-8" indent="no"/>
   <xsl:strip-space elements="*"/>
-  <xsl:variable name="key" select="'Variable'"/>
+  <xsl:variable name="key" select="'Special form'"/>
   <xsl:template match="/index">
-    <!-- <xsl:variable name="fi">
+   <xsl:variable name="fi">
       <xsl:apply-templates mode="filter"/>
     </xsl:variable>
-    <xsl:apply-templates select="$fi"/> -->
-    <xsl:apply-templates/>
+    <xsl:apply-templates select="$fi"/>
   </xsl:template>
   <xsl:template match="entry">
     <xsl:text>\item {</xsl:text>
     <xsl:value-of select="id"/>
     <xsl:text>}{\cf </xsl:text>
     <xsl:value-of select="lead"/>
-    <xsl:text> \rm \lowercase {</xsl:text>
-    <xsl:value-of select="items/item[1]/type"/>
-    <xsl:text>}}, </xsl:text>
+    <xsl:text>}, </xsl:text>
     <xsl:value-of select="items/item[1]/page"/>
     <xsl:text>&#xA;</xsl:text>
-      <xsl:for-each select="items/item[position() > 1]">
-        <xsl:text>\subitem {\rm \lowercase {</xsl:text>
-        <xsl:value-of select="type"/>
-        <xsl:text>}}, </xsl:text>
-        <xsl:value-of select="page"/>
-        <xsl:text>&#xA;</xsl:text>
-      </xsl:for-each>
+   
   </xsl:template>
 
   <xsl:template mode="filter" match="text()"/>
