@@ -1,7 +1,8 @@
-<xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xsl:output method="text"  encoding="UTF-8" indent="no"/>
   <xsl:strip-space elements="*"/>
-  <xsl:variable name="key" select="'Special form'"/>
+  <xsl:param name="key" as="xs:string" required="yes"/>
   <xsl:template match="/index">
    <xsl:variable name="fi">
       <xsl:apply-templates mode="filter"/>

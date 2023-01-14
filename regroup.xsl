@@ -13,9 +13,10 @@
     <xsl:variable name="tmp">
       <xsl:for-each select="item">
         <xsl:sort select="type"/>
+        <xsl:variable name="tid" select="type"/>
         <item>
           <type><xsl:value-of select="type"/></type>
-          <page><xsl:value-of select="sort($self//item[type = type]/page)" separator=", "/></page>
+          <page><xsl:value-of select="sort($self//item[type = $tid]/page)" separator=", "/></page>
         </item>
       </xsl:for-each>
     </xsl:variable>

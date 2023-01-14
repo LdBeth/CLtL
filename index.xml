@@ -5,6 +5,10 @@
       <lead>(setf class-name)</lead>
       <items>
          <item>
+            <type>Generic function</type>
+            <page>816</page>
+         </item>
+         <item>
             <type>Primary method</type>
             <page>816</page>
          </item>
@@ -14,6 +18,10 @@
       <id>(setf documentation) </id>
       <lead>(setf documentation)</lead>
       <items>
+         <item>
+            <type>Generic function</type>
+            <page>837</page>
+         </item>
          <item>
             <type>Primary method</type>
             <page>837</page>
@@ -26,11 +34,11 @@
       <items>
          <item>
             <type>Function</type>
-            <page>295, 492</page>
+            <page>295</page>
          </item>
          <item>
             <type>Variable</type>
-            <page>295, 492</page>
+            <page>492</page>
          </item>
       </items>
    </entry>
@@ -550,11 +558,11 @@
       <items>
          <item>
             <type>Function</type>
-            <page>294, 491</page>
+            <page>294</page>
          </item>
          <item>
             <type>Variable</type>
-            <page>294, 491</page>
+            <page>491</page>
          </item>
       </items>
    </entry>
@@ -584,11 +592,11 @@
       <items>
          <item>
             <type>Function</type>
-            <page>294, 492</page>
+            <page>294</page>
          </item>
          <item>
             <type>Variable</type>
-            <page>294, 492</page>
+            <page>492</page>
          </item>
       </items>
    </entry>
@@ -598,11 +606,11 @@
       <items>
          <item>
             <type>Function</type>
-            <page>295, 492</page>
+            <page>295</page>
          </item>
          <item>
             <type>Variable</type>
-            <page>295, 492</page>
+            <page>492</page>
          </item>
       </items>
    </entry>
@@ -761,18 +769,12 @@
       <lead>add-method</lead>
       <items>
          <item>
-            <type>Primary method</type>
-            <page>812, 812</page>
+            <type>Generic function</type>
+            <page>812</page>
          </item>
-      </items>
-   </entry>
-   <entry>
-      <id>add-method </id>
-      <lead>add-method </lead>
-      <items>
          <item>
             <type>Primary method</type>
-            <page>812, 812</page>
+            <page>812</page>
          </item>
       </items>
    </entry>
@@ -862,11 +864,11 @@
       <items>
          <item>
             <type>Function</type>
-            <page>416, 727</page>
+            <page>416</page>
          </item>
          <item>
             <type>Loop clause</type>
-            <page>416, 727</page>
+            <page>727</page>
          </item>
       </items>
    </entry>
@@ -2005,6 +2007,10 @@
       <lead>change-class</lead>
       <items>
          <item>
+            <type>Generic function</type>
+            <page>814</page>
+         </item>
+         <item>
             <type>Primary method</type>
             <page>814</page>
          </item>
@@ -2365,6 +2371,10 @@
       <lead>class-name</lead>
       <items>
          <item>
+            <type>Generic function</type>
+            <page>816</page>
+         </item>
+         <item>
             <type>Primary method</type>
             <page>816</page>
          </item>
@@ -2446,11 +2456,11 @@
       <items>
          <item>
             <type>Function</type>
-            <page>726, 935</page>
+            <page>935</page>
          </item>
          <item>
             <type>Loop clause</type>
-            <page>726, 935</page>
+            <page>726</page>
          </item>
       </items>
    </entry>
@@ -2690,11 +2700,11 @@
       <items>
          <item>
             <type>Macro</type>
-            <page>150, 150</page>
+            <page>150</page>
          </item>
          <item>
             <type>Special form</type>
-            <page>150, 150</page>
+            <page>150</page>
          </item>
       </items>
    </entry>
@@ -2984,11 +2994,11 @@
       <items>
          <item>
             <type>Function</type>
-            <page>404, 728</page>
+            <page>404</page>
          </item>
          <item>
             <type>Loop clause</type>
-            <page>404, 728</page>
+            <page>728</page>
          </item>
       </items>
    </entry>
@@ -3367,6 +3377,10 @@
       <lead>describe-object</lead>
       <items>
          <item>
+            <type>Generic function</type>
+            <page>693</page>
+         </item>
+         <item>
             <type>Primary method</type>
             <page>693</page>
          </item>
@@ -3448,11 +3462,11 @@
       <items>
          <item>
             <type>Loop clause</type>
-            <page>163, 164, 735</page>
+            <page>735</page>
          </item>
          <item>
             <type>Macro</type>
-            <page>163, 164, 735</page>
+            <page>163, 164</page>
          </item>
       </items>
    </entry>
@@ -3502,11 +3516,15 @@
       <items>
          <item>
             <type>Function</type>
-            <page>690, 835</page>
+            <page>690</page>
+         </item>
+         <item>
+            <type>Generic function</type>
+            <page>835</page>
          </item>
          <item>
             <type>Primary method</type>
-            <page>690, 835</page>
+            <page>835</page>
          </item>
       </items>
    </entry>
@@ -3756,11 +3774,11 @@
       <items>
          <item>
             <type>Function</type>
-            <page>663, 882, 914</page>
+            <page>663, 882</page>
          </item>
          <item>
             <type>Type</type>
-            <page>663, 882, 914</page>
+            <page>914</page>
          </item>
       </items>
    </entry>
@@ -3861,16 +3879,6 @@
          <item>
             <type>Function</type>
             <page>299</page>
-         </item>
-      </items>
-   </entry>
-   <entry>
-      <id>f </id>
-      <lead>f</lead>
-      <items>
-         <item>
-            <type>Primary method</type>
-            <page>810</page>
          </item>
       </items>
    </entry>
@@ -4089,18 +4097,12 @@
       <lead>find-method</lead>
       <items>
          <item>
-            <type>Primary method</type>
-            <page>839, 839</page>
+            <type>Generic function</type>
+            <page>839</page>
          </item>
-      </items>
-   </entry>
-   <entry>
-      <id>find-method </id>
-      <lead>find-method </lead>
-      <items>
          <item>
             <type>Primary method</type>
-            <page>839, 839</page>
+            <page>839</page>
          </item>
       </items>
    </entry>
@@ -4160,11 +4162,11 @@
       <items>
          <item>
             <type>Macro</type>
-            <page>151, 154</page>
+            <page>154</page>
          </item>
          <item>
             <type>Special form</type>
-            <page>151, 154</page>
+            <page>151</page>
          </item>
       </items>
    </entry>
@@ -4382,6 +4384,10 @@
       <id>function-keywords </id>
       <lead>function-keywords</lead>
       <items>
+         <item>
+            <type>Generic function</type>
+            <page>839</page>
+         </item>
          <item>
             <type>Primary method</type>
             <page>839</page>
@@ -4754,11 +4760,11 @@
       <items>
          <item>
             <type>Loop clause</type>
-            <page>156, 733</page>
+            <page>733</page>
          </item>
          <item>
             <type>Special form</type>
-            <page>156, 733</page>
+            <page>156</page>
          </item>
       </items>
    </entry>
@@ -4798,11 +4804,11 @@
       <items>
          <item>
             <type>Function</type>
-            <page>262, 262</page>
+            <page>262</page>
          </item>
          <item>
             <type>Macro</type>
-            <page>262, 262</page>
+            <page>262</page>
          </item>
       </items>
    </entry>
@@ -4820,6 +4826,10 @@
       <id>initialize-instance </id>
       <lead>initialize-instance</lead>
       <items>
+         <item>
+            <type>Generic function</type>
+            <page>841</page>
+         </item>
          <item>
             <type>Primary method</type>
             <page>841</page>
@@ -5012,11 +5022,11 @@
       <items>
          <item>
             <type>Macro</type>
-            <page>151, 154</page>
+            <page>154</page>
          </item>
          <item>
             <type>Special form</type>
-            <page>151, 154</page>
+            <page>151</page>
          </item>
       </items>
    </entry>
@@ -5276,11 +5286,11 @@
       <items>
          <item>
             <type>Macro</type>
-            <page>147, 149</page>
+            <page>149</page>
          </item>
          <item>
             <type>Special form</type>
-            <page>147, 149</page>
+            <page>147</page>
          </item>
       </items>
    </entry>
@@ -5290,11 +5300,11 @@
       <items>
          <item>
             <type>Macro</type>
-            <page>149, 150</page>
+            <page>150</page>
          </item>
          <item>
             <type>Special form</type>
-            <page>149, 150</page>
+            <page>149</page>
          </item>
       </items>
    </entry>
@@ -5414,11 +5424,11 @@
       <items>
          <item>
             <type>Macro</type>
-            <page>219, 220</page>
+            <page>219</page>
          </item>
          <item>
             <type>Special form</type>
-            <page>219, 220</page>
+            <page>220</page>
          </item>
       </items>
    </entry>
@@ -5498,11 +5508,11 @@
       <items>
          <item>
             <type>Class</type>
-            <page>625, 628</page>
+            <page>625</page>
          </item>
          <item>
             <type>Function</type>
-            <page>625, 628</page>
+            <page>628</page>
          </item>
       </items>
    </entry>
@@ -5722,11 +5732,11 @@
       <items>
          <item>
             <type>Macro</type>
-            <page>151, 154</page>
+            <page>154</page>
          </item>
          <item>
             <type>Special form</type>
-            <page>151, 154</page>
+            <page>151</page>
          </item>
       </items>
    </entry>
@@ -5815,6 +5825,10 @@
       <lead>make-instance</lead>
       <items>
          <item>
+            <type>Generic function</type>
+            <page>843</page>
+         </item>
+         <item>
             <type>Primary method</type>
             <page>843</page>
          </item>
@@ -5824,6 +5838,10 @@
       <id>make-instances-obsolete </id>
       <lead>make-instances-obsolete</lead>
       <items>
+         <item>
+            <type>Generic function</type>
+            <page>843</page>
+         </item>
          <item>
             <type>Primary method</type>
             <page>843</page>
@@ -6195,6 +6213,10 @@
       <lead>method-qualifiers</lead>
       <items>
          <item>
+            <type>Generic function</type>
+            <page>844</page>
+         </item>
+         <item>
             <type>Primary method</type>
             <page>844</page>
          </item>
@@ -6486,11 +6508,11 @@
       <items>
          <item>
             <type>Function</type>
-            <page>417, 727</page>
+            <page>417</page>
          </item>
          <item>
             <type>Loop clause</type>
-            <page>417, 727</page>
+            <page>727</page>
          </item>
       </items>
    </entry>
@@ -6579,6 +6601,10 @@
       <lead>no-applicable-method</lead>
       <items>
          <item>
+            <type>Generic function</type>
+            <page>844</page>
+         </item>
+         <item>
             <type>Primary method</type>
             <page>844</page>
          </item>
@@ -6589,18 +6615,12 @@
       <lead>no-next-method</lead>
       <items>
          <item>
-            <type>Primary method</type>
-            <page>845, 845</page>
+            <type>Generic function</type>
+            <page>845</page>
          </item>
-      </items>
-   </entry>
-   <entry>
-      <id>no-next-method </id>
-      <lead>no-next-method </lead>
-      <items>
          <item>
             <type>Primary method</type>
-            <page>845, 845</page>
+            <page>845</page>
          </item>
       </items>
    </entry>
@@ -7389,6 +7409,10 @@
       <lead>print-object</lead>
       <items>
          <item>
+            <type>Generic function</type>
+            <page>845</page>
+         </item>
+         <item>
             <type>Primary method</type>
             <page>845</page>
          </item>
@@ -7789,6 +7813,10 @@
       <lead>reinitialize-instance</lead>
       <items>
          <item>
+            <type>Generic function</type>
+            <page>847</page>
+         </item>
+         <item>
             <type>Primary method</type>
             <page>847</page>
          </item>
@@ -7869,18 +7897,12 @@
       <lead>remove-method</lead>
       <items>
          <item>
-            <type>Primary method</type>
-            <page>848, 848</page>
+            <type>Generic function</type>
+            <page>848</page>
          </item>
-      </items>
-   </entry>
-   <entry>
-      <id>remove-method </id>
-      <lead>remove-method </lead>
-      <items>
          <item>
             <type>Primary method</type>
-            <page>848, 848</page>
+            <page>848</page>
          </item>
       </items>
    </entry>
@@ -8010,11 +8032,11 @@
       <items>
          <item>
             <type>Loop clause</type>
-            <page>161, 736</page>
+            <page>736</page>
          </item>
          <item>
             <type>Macro</type>
-            <page>161, 736</page>
+            <page>161</page>
          </item>
       </items>
    </entry>
@@ -8334,11 +8356,11 @@
       <items>
          <item>
             <type>Function</type>
-            <page>921, 921</page>
+            <page>921</page>
          </item>
          <item>
             <type>Type specifier</type>
-            <page>921, 921</page>
+            <page>921</page>
          </item>
       </items>
    </entry>
@@ -8496,6 +8518,10 @@
       <id>shared-initialize </id>
       <lead>shared-initialize</lead>
       <items>
+         <item>
+            <type>Generic function</type>
+            <page>848</page>
+         </item>
          <item>
             <type>Primary method</type>
             <page>848</page>
@@ -8747,6 +8773,10 @@
       <lead>slot-missing</lead>
       <items>
          <item>
+            <type>Generic function</type>
+            <page>851</page>
+         </item>
+         <item>
             <type>Primary method</type>
             <page>851</page>
          </item>
@@ -8756,6 +8786,10 @@
       <id>slot-unbound </id>
       <lead>slot-unbound</lead>
       <items>
+         <item>
+            <type>Generic function</type>
+            <page>851</page>
+         </item>
          <item>
             <type>Primary method</type>
             <page>851</page>
@@ -9728,11 +9762,11 @@
       <items>
          <item>
             <type>Loop clause</type>
-            <page>156, 733</page>
+            <page>733</page>
          </item>
          <item>
             <type>Macro</type>
-            <page>156, 733</page>
+            <page>156</page>
          </item>
       </items>
    </entry>
@@ -9752,11 +9786,11 @@
       <items>
          <item>
             <type>Function</type>
-            <page>721, 928</page>
+            <page>928</page>
          </item>
          <item>
             <type>Loop clause</type>
-            <page>721, 928</page>
+            <page>721</page>
          </item>
       </items>
    </entry>
@@ -9802,31 +9836,15 @@
    </entry>
    <entry>
       <id>update-instance-for-different-class </id>
-      <lead>update-instance-for-different-class </lead>
-      <items>
-         <item>
-            <type>Primary method</type>
-            <page>852, 852</page>
-         </item>
-      </items>
-   </entry>
-   <entry>
-      <id>update-instance-for-different-class </id>
       <lead>update-instance-for-different-class</lead>
       <items>
          <item>
-            <type>Primary method</type>
-            <page>852, 852</page>
+            <type>Generic function</type>
+            <page>852</page>
          </item>
-      </items>
-   </entry>
-   <entry>
-      <id>update-instance-for-redefined-class </id>
-      <lead>update-instance-for-redefined-class </lead>
-      <items>
          <item>
             <type>Primary method</type>
-            <page>855, 855</page>
+            <page>852</page>
          </item>
       </items>
    </entry>
@@ -9835,8 +9853,12 @@
       <lead>update-instance-for-redefined-class</lead>
       <items>
          <item>
+            <type>Generic function</type>
+            <page>855</page>
+         </item>
+         <item>
             <type>Primary method</type>
-            <page>855, 855</page>
+            <page>855</page>
          </item>
       </items>
    </entry>
@@ -10006,11 +10028,11 @@
       <items>
          <item>
             <type>Loop clause</type>
-            <page>156, 733</page>
+            <page>733</page>
          </item>
          <item>
             <type>Macro</type>
-            <page>156, 733</page>
+            <page>156</page>
          </item>
       </items>
    </entry>
