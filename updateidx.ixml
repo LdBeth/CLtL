@@ -1,0 +1,9 @@
+index: (entry, NL)+, NL* .
+entry: -"\indexentry{{", id, -"}{", line, -"}}{", page, -"}" .
+
+id: (~[" "]+; "(", ~[")"]+, ")"), " " .
+-line: -"\cf ", -lead, -"\ \rm \lowercase {", type, -"}" .
+lead: -~["\"]+ .
+type: ~["}"]+ .
+page: ["0"-"9"]+ .
+-NL: -#a ; -#d, -#a .
