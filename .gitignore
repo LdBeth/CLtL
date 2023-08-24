@@ -1,2 +1,4 @@
 *.fmt
 *.log
+*.tfm
+*.vf
