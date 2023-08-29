@@ -3,7 +3,7 @@ prologues := 2;
 %filenametemplate "%j-%c.ps";
 verbatimtex \input cltlmac etex
 beginfig(1);
-  u=0.7pt;
+  u=0.8pt;
   z2c = (20u,0);
   z2s = (40u,40u);
   draw rect2(btex scan etex);
